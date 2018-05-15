@@ -1,7 +1,8 @@
-'''Utility functions for exploratory data analysis (EDA).
+'''Utility functions for TJI Analyses
 
 Author: Everett Wetchler (everett.wetchler@gmail.com)
 '''
+import os
 
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
@@ -10,6 +11,42 @@ import pandas as pd
 from scipy.stats import pearsonr
 import seaborn as sns
 
+
+#################################################################
+# I. General Utilities
+#################################################################
+
+class PlotSaver(object):
+    def __init__(self, plot_dir, plot_prefix, saving=True):
+        self.saving = saving
+        self.plot_dir = plot_dir
+        self.plot_prefix = plot_prefix
+        self.plot_count = 0
+        if self.saving:
+            self.clear_plots()
+
+    def saveplot(self, fig, name):
+        if self.saving:
+            self.plot_count += 1
+            filename = os.path.join(
+                self.plot_dir, self.plot_prefix + "%02d_%s.png" % (self.plot_count, name))
+            fig.savefig(filename)
+
+    def clear_plots(self):
+        prev_plots = [f for f in os.listdir(self.plot_dir) if f.startswith(self.plot_prefix)]
+        print("Removing %d past plots" % len(prev_plots))
+        for f in prev_plots:
+            os.remove(os.path.join(self.plot_dir, f))
+
+    def disable(self):
+        self.saving = False
+
+    def enable(self):
+        self.saving = True
+
+#################################################################
+# II. EDA Utilities
+#################################################################
 
 #################################################################
 # Summary statistics, missing data
