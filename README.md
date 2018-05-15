@@ -18,7 +18,7 @@ This is a general repository for all presentable files conducting analysis of TJ
 * [Summary of police shot by civilians](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_officers_shot.ipynb)
 
 #### II. Correlational investigations
-* [What officers are disproportionately involved in shootings?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb)
+* [What kinds of officers are involved in shootings?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb)
 * [What determines if a civilian will survive a shooting?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_who_survives_shootings.ipynb)
 
 ## About the datasets
