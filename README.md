@@ -12,13 +12,16 @@ This is a general repository for all presentable files conducting analysis of TJ
 
 ## Overview of analyses contained
 
-* [[link]](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/officer_population_descriptive_analylsis.ipynb) Who makes up the Texas police force?
-* [[link]](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_civilians_shot.ipynb) Summary of civilians shot by police
-* [[link]](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_officers_shot.ipynb) Summary of police shot by civilians
-* [[link]](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb) What officers are disproportionately involved in shootings?
-* [[link]](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_who_survives_shootings.ipynb) What determines if a civilian will survive a shooting?
+#### I. Descriptive analyses
+* [Who makes up the Texas police force?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/officer_population_descriptive_analylsis.ipynb)
+* [Summary of civilians shot by police](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_civilians_shot.ipynb)
+* [Summary of police shot by civilians](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_officers_shot.ipynb)
+
+#### II. Correlational investigations
+* [What officers are disproportionately involved in shootings?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb)
+* [What determines if a civilian will survive a shooting?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_who_survives_shootings.ipynb)
 
 ## About the datasets
 
-* See our [data-processing github repository](https://github.com/texas-justice-initiative/data-processing) for details on all datasets TJI uses, plus the code we use in data wrangling and cleaning.
+* See our [data-processing github repository](https://github.com/texas-justice-initiative/data-processing) for detailed descriptions of all datasets TJI uses, plus the code we use in data wrangling and cleaning.
 * See our [data.world repository](https://data.world/tji) for the actual datasets, which are distributed across several data.world projects ([Officer Involved Shootings](https://data.world/tji/officer-involved-shootings) | [Custodial Deaths](https://data.world/tji/tx-deaths-in-custody-2005-2015) | [Other Data](https://data.world/tji/auxiliary-datasets))
