@@ -13,13 +13,13 @@ This is a general repository for all presentable files conducting analysis of TJ
 ## Overview of analyses contained
 
 #### I. Descriptive analyses
-* [Who makes up the Texas police force?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/officer_population_descriptive_analylsis.ipynb)
-* [Summary of civilians shot by police](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_civilians_shot.ipynb)
-* [Summary of police shot by civilians](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_officers_shot.ipynb)
+* [Who makes up the Texas police force? (`officer_population_descriptive_analylsis.ipynb`)](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/officer_population_descriptive_analylsis.ipynb)
+* [Summary of civilians shot by police (`ois_descriptive_analysis_civilians_shot.ipynb`)](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_civilians_shot.ipynb)
+* [Summary of police shot by civilians (`ois_descriptive_analysis_officers_shot.ipynb`)](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_officers_shot.ipynb)
 
 #### II. Correlational investigations
-* [What officers are disproportionately involved in shootings?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb)
-* [What determines if a civilian will survive a shooting?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_who_survives_shootings.ipynb)
+* [What officers are disproportionately involved in shootings? (`ois_which_officers.ipynb`)](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb)
+* [What determines if a civilian will survive a shooting? (`ois_who_survives_shootings.ipynb`)](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_who_survives_shootings.ipynb)
 
 ## About the datasets
 
