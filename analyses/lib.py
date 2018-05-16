@@ -2,7 +2,10 @@
 
 Author: Everett Wetchler (everett.wetchler@gmail.com)
 '''
+
+
 import os
+
 
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
@@ -15,6 +18,7 @@ import seaborn as sns
 #################################################################
 # I. General Utilities
 #################################################################
+
 
 class PlotSaver(object):
     def __init__(self, plot_dir, plot_prefix, saving=True):
@@ -44,13 +48,62 @@ class PlotSaver(object):
     def enable(self):
         self.saving = True
 
+
+def test_summary(p, parens=True, r=None, chi=False, fisher=False):
+    '''Create a string summarizing the results of a statistical test.'''
+    if r is not None:
+        test_name = 'pearson r' + r'$^2$' + ' = %.2f' % (r ** 2)
+    elif chi:
+        test_name = 'χ2 test'
+    elif fisher:
+        test_name = 'fisher exact test'
+    else:
+        raise Exception("Must specify one or {r, chi, fisher}")
+    test_name = ', %s' % test_name
+        
+    fmt = "(%s%s)" if parens else "%s%s"
+    if p < .001:
+        p_str = "p < .001"
+    elif p < .01:
+        p_str = "p < .01"
+    else:
+        p_str = "p = %.3f" % p
+    return fmt % (p_str, test_name)
+
+
+def insert_col_after(df, s, name, after):
+    '''Insert a new column into a dataframe, after a particular column.'''
+    cols = list(df.columns)
+    i = cols.index(after)
+    newcols = cols[:(i+1)] + [name] + cols[(i+1):]
+    df[name] = s
+    return df[newcols]
+
+
+def insert_col_before(df, s, name, before):
+    '''Insert a new column into a dataframe, before a particular column.'''
+    cols = list(df.columns)
+    i = cols.index(before)
+    newcols = cols[:i] + [name] + cols[i:]
+    df[name] = s
+    return df[newcols]
+
+
+def insert_col_front(df, s, name):
+    '''Insert a new column into a dataframe, in front as the first column.'''
+    cols = list(df.columns)
+    newcols = [name] + cols
+    df[name] = s
+    return df[newcols]
+
+
 #################################################################
 # II. EDA Utilities
 #################################################################
 
-#################################################################
+
 # Summary statistics, missing data
-#################################################################
+
 
 def _truncate_str(s, n=15):
     '''Returns string s truncated to n characters, with elipsis as needed...'''
@@ -122,9 +175,9 @@ def dist_plot(s, ax, color=COLOR_BAR, color_na=COLOR_NA, alpha=ALPHA_BAR,
               sort_index=False):
     pass
 
-#################################################################
+
 # Correlations
-#################################################################
+
 
 def scatter(df, x_col, y_col, labels=None):
     fig, ax = plt.subplots(1)
@@ -198,31 +251,3 @@ def add_fit(ax, a, b, orders=1, colors=None, fig=None):
         ax.plot(x, y, color=col, alpha=0.7, linestyle='--',
                 linewidth=2, label='%s (R2 = %.2f, p = %.2f)' % (lab, r, p))
     ax.legend(loc='upper right')
-
-
-#################################################################
-# Other utilities
-#################################################################
-
-
-def insert_col_after(df, s, name, after):
-    cols = list(df.columns)
-    i = cols.index(after)
-    newcols = cols[:(i+1)] + [name] + cols[(i+1):]
-    df[name] = s
-    return df[newcols]
-
-
-def insert_col_before(df, s, name, before):
-    cols = list(df.columns)
-    i = cols.index(before)
-    newcols = cols[:i] + [name] + cols[i:]
-    df[name] = s
-    return df[newcols]
-
-
-def insert_col_front(df, s, name):
-    cols = list(df.columns)
-    newcols = [name] + cols
-    df[name] = s
-    return df[newcols]
