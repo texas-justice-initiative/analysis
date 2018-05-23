@@ -25,6 +25,8 @@ class PlotSaver(object):
         self.saving = saving
         self.plot_dir = plot_dir
         self.plot_prefix = plot_prefix
+        if not self.plot_prefix.endswith('_'):
+            self.plot_prefix += '_'
         self.plot_count = 0
         if self.saving:
             self.clear_plots()
