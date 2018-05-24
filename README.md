@@ -22,6 +22,9 @@ This is a general repository for all presentable files conducting analysis of TJ
 * [What kinds of officers are involved in shootings?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb)
 * [What determines if a civilian will survive a shooting?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_who_survives_shootings.ipynb)
 
+## Developers and data scientists
+* Start by cloning `analyses/TEMPLATE.ipynb`, which shows the format and style that TJI analyses should generally follow. Deviate as necessary, but it's better if all our work has a similar format, look, and feel.
+
 ## About the datasets
 
 * See our [data-processing github repository](https://github.com/texas-justice-initiative/data-processing) for detailed descriptions of all datasets TJI uses, plus the code we use in data wrangling and cleaning.
