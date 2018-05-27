@@ -1,4 +1,4 @@
-# Texas Justic Initiative - analysis library
+# Texas Justic Initiative: Analysis Library
 
 To learn more about TJI, visit our website at www.texasjusticeinitiative.org
 
