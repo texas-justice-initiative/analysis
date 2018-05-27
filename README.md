@@ -13,7 +13,7 @@ This is a general repository for all presentable files conducting analysis of TJ
 ## Overview of analyses contained
 
 #### I. Descriptive analyses
-* [Who makes up the Texas police force?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/officer_population_descriptive_analylsis.ipynb)
+* [Who makes up the Texas police force?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/officer_population_descriptive_analysis.ipynb)
 * [Summary of civilians shot by police](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_civilians_shot.ipynb)
 * [Summary of police shot by civilians](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_officers_shot.ipynb)
 * [Summary of deaths in custody](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/cdr_explore.ipynb)
