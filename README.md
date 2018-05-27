@@ -8,14 +8,6 @@ This is a general repository for all presentable files conducting analysis of TJ
 
 If you are not a coder, feel free to skim the analyses here for their summaries (at the top) and charts (embedded - skim for them). You can also browse the [plots/](https://github.com/texas-justice-initiative/analysis/tree/master/plots) directory to jump right into the pile of results.
 
-## Data Scientists:
-
-If you are a coder, feel free to reproduce and alter the code for your own theories. If you identify bugs or concerns with our work, please file an [issue](https://github.com/texas-justice-initiative/analysis/issues) so we can ensure that our results our accurate.
-
-## TJI Team
-
-To conduct your own analysis, clone the [analyses/TJI_ANALYSIS_TEMPLATE.ipynb](https://github.com/texas-justice-initiative/analysis/analyses/TJI_ANALYSIS_TEMPLATE.ipynb) file and work from there.
-
 ## Overview of analyses contained
 
 #### I. Descriptive analyses
@@ -32,3 +24,11 @@ To conduct your own analysis, clone the [analyses/TJI_ANALYSIS_TEMPLATE.ipynb](h
 
 * See our [data-processing github repository](https://github.com/texas-justice-initiative/data-processing) for detailed descriptions of all datasets TJI uses, plus the code we use in data wrangling and cleaning.
 * See our [data.world repository](https://data.world/tji) for the actual datasets, which are distributed across several data.world projects ([Officer Involved Shootings](https://data.world/tji/officer-involved-shootings) | [Custodial Deaths](https://data.world/tji/tx-deaths-in-custody-2005-2015) | [Other Data](https://data.world/tji/auxiliary-datasets))
+
+## External Data Scientists:
+
+If you are a coder, feel free to reproduce and alter the code for your own theories. If you identify bugs or concerns with our work, please file an [issue](https://github.com/texas-justice-initiative/analysis/issues) so we can ensure that our results our accurate.
+
+## TJI Team
+
+To conduct your own analysis, clone the [analyses/TJI_ANALYSIS_TEMPLATE.ipynb](https://github.com/texas-justice-initiative/analysis/analyses/TJI_ANALYSIS_TEMPLATE.ipynb) file and work from there.
