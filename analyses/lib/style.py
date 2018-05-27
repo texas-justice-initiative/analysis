@@ -15,7 +15,6 @@ import seaborn as sns
 
 mpl.rcParams.update({
   'font.size': 14,
-  'font.family': 'Helvetica',
   'axes.titlesize': 'xx-large',
   'axes.labelsize': 'x-large',
   'xtick.labelsize': 'large',
