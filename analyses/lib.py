@@ -22,7 +22,17 @@ import seaborn as sns
 
 TJI_BLUE = '#0B5D93'
 TJI_RED = '#CE2727'
-TJI_DARKGRAY = '#646464'
+TJI_DARKGRAY = '#3F3F40'
+TJI_YELLOW = '#F1AB32'
+TJI_BRIGHTYELLOW = '#FFFD00'
+TJI_PURPLE = '#4D3B6B'
+TJI_DEEPPURPLE = '#2D1752'
+TJI_DEEPBLUE = '#252939'
+TJI_DEEPRED = '$872729'
+TJI_PALETTE = sns.color_palette([
+    TJI_BLUE, TJI_RED, TJI_DEEPBLUE,
+    TJI_YELLOW, TJI_PURPLE, TJI_DEEPPURPLE, TJI_DARKGRAY,
+    ])
 
 
 #################################################################
@@ -31,8 +41,9 @@ TJI_DARKGRAY = '#646464'
 
 
 class PlotSaver(object):
-    def __init__(self, plot_dir, plot_prefix, saving=True):
+    def __init__(self, plot_dir, plot_prefix, saving=True, numbering=True):
         self.saving = saving
+        self.numbering = numbering
         self.plot_dir = plot_dir
         self.plot_prefix = plot_prefix
         if not self.plot_prefix.endswith('_'):
@@ -44,13 +55,14 @@ class PlotSaver(object):
     def saveplot(self, fig, name):
         if self.saving:
             self.plot_count += 1
+            num = ('%02d_' % self.plot_count) if self.numbering else ''
             filename = os.path.join(
-                self.plot_dir, self.plot_prefix + "%02d_%s.png" % (self.plot_count, name))
+                self.plot_dir, self.plot_prefix + num + name + '.png')
             fig.savefig(filename)
 
     def clear_plots(self):
         prev_plots = [f for f in os.listdir(self.plot_dir) if f.startswith(self.plot_prefix)]
-        print("Removing %d past plots" % len(prev_plots))
+        print('Removing %d past plots' % len(prev_plots))
         for f in prev_plots:
             os.remove(os.path.join(self.plot_dir, f))
 
@@ -70,16 +82,16 @@ def test_summary(p, parens=True, r=None, chi=False, fisher=False):
     elif fisher:
         test_name = 'fisher exact test'
     else:
-        raise Exception("Must specify one or {r, chi, fisher}")
+        raise Exception('Must specify one or {r, chi, fisher}')
     test_name = ', %s' % test_name
         
-    fmt = "(%s%s)" if parens else "%s%s"
+    fmt = '(%s%s)' if parens else '%s%s'
     if p < .001:
-        p_str = "p < .001"
+        p_str = 'p < .001'
     elif p < .01:
-        p_str = "p < .01"
+        p_str = 'p < .01'
     else:
-        p_str = "p = %.3f" % p
+        p_str = 'p = %.3f' % p
     return fmt % (p_str, test_name)
 
 
