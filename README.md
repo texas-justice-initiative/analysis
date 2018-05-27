@@ -31,4 +31,4 @@ If you are a coder, feel free to reproduce and alter the code for your own theor
 
 ## TJI Team
 
-To conduct your own analysis, clone the [analyses/TJI_ANALYSIS_TEMPLATE.ipynb](https://github.com/texas-justice-initiative/analysis/analyses/TJI_ANALYSIS_TEMPLATE.ipynb) file and work from there.
+To conduct your own analysis, clone the [analyses/TJI_ANALYSIS_TEMPLATE.ipynb](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/TJI_ANALYSIS_TEMPLATE.ipynb) file and work from there.
