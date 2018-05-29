@@ -24,7 +24,7 @@ mpl.rcParams.update({
   'legend.frameon': True,
   'legend.framealpha': 0.7,
   'figure.figsize': ['9', '6'],
-  'lines.linewidth' : 5,
+  'lines.linewidth' : 4,
   'lines.solid_joinstyle': 'miter',
 })
 
