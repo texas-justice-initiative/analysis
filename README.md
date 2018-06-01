@@ -15,9 +15,12 @@ If you are not a coder, feel free to skim the analyses here for their summaries 
 * [Summary of civilians shot by police](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_civilians_shot.ipynb)
 * [Summary of police shot by civilians](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_descriptive_analysis_officers_shot.ipynb)
 * [Summary of deaths in custody](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/cdr_explore.ipynb)
+* [How do police die in the line of duty?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/explore_odmp.ipynb)
+* [Where do shootings happen?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/where_do_shootings_happen.ipynb)
 
 #### II. Correlational investigations
-* [What kinds of officers are involved in shootings?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers.ipynb)
+* [Have shootings increased over time?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/shootings_over_time.ipynb)
+* [What kinds of officers are involved in shootings?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_which_officers_are_involved_in_shootings.ipynb)
 * [What determines if a civilian will survive a shooting?](https://github.com/texas-justice-initiative/analysis/blob/master/analyses/ois_who_survives_shootings.ipynb)
 
 ## About the datasets
