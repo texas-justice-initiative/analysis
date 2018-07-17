@@ -175,6 +175,8 @@ def pie_plot(df, title='', donut=False,
     # Plot sections clockwise, unless the user says otherwise
     if 'counterclock' not in kwargs:
         kwargs['counterclock'] = False
+    if 'startangle' not in kwargs:
+        startangle = 90
         
     # User asked for a donut, but didn't specify
     # an inner radius size. Pick a good default.
@@ -190,9 +192,8 @@ def pie_plot(df, title='', donut=False,
     
     axes = df.plot(
         kind='pie', subplots=True, figsize=figsize or (6 * len(df.columns), 6),
-        autopct='%.0f%%', startangle=180,
+        autopct='%.0f%%', pctdistance=max(0.6, 0.5 + donut/2),
         textprops={'color': 'black', 'fontsize': label_size, 'fontweight': 'bold'},
-        pctdistance=max(0.6, 0.5 + donut/2),
         **kwargs)
 
     for ax, t in zip(axes, df.columns):
