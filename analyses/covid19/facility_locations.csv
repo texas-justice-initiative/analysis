@@ -1,0 +1,100 @@
+Unit Name,Unit Code,Operator,Gender,Type,Region,City,County
+Allred,JA,CID,Male,Prison,V,Iowa Park,Wichita
+Bell,CV,MTC,Male,Private Prison,Private,Cleveland,Liberty
+Beto,B,CID,Male,Prison,II,Tennessee Colony,Anderson
+Boyd,BY,CID,Male,Prison,II,Teague,Freestone
+Bridgeport,BR,MTC,Male,Private Prison,Private,Bridgeport,Wise
+Briscoe,DB,CID,Male,Prison,IV,Dilley,Frio
+Byrd,DU,CID,Male,Prison,I,Huntsville,Walker
+Clemens,CN,CID,Male,Prison,III,Brazoria,Brazoria
+Clements,BC,CID,Male,Prison,V,Amarillo,Potter
+Coffield,CO,CID,Male,Prison,II,Tennessee Colony,Anderson
+Cole,CL,CID,Male,State Jail,II,Bonham,Fannin
+Connally,CY,CID,Male,Prison,IV,Kenedy,Karnes
+Cotulla,N4,CID,Male,Prison,IV,Cotulla,La Salle
+Crain,GV,CID,Female,Prison,VI,Gatesville,Coryell
+Dalhart,DH,CID,Male,Prison,V,Dalhart,Hartley
+Daniel,DL,CID,Male,Prison,V,Snyder,Scurry
+Darrington,DA,CID,Male,Prison,III,Rosharon,Brazoria
+Diboll,DO,MTC,Male,Private Prison,Private,Diboll,Angelina
+Dominguez,BX,CID,Male,State Jail,IV,San Antonio,Bexar
+Duncan,N6,CID,Male,Geriatric Facility,I,Diboll,Angelina
+East Texas,XQ,MTC,Co-Gender,Private Multi-Use,Private,Henderson,Rusk
+Eastham,EA,CID,Male,Prison,I,Lovelady,Houston
+Ellis,E1,CID,Male,Prison,I,Huntsville,Walker
+Estelle,E2,CID,Male,Prison,I,Huntsville,Walker
+Estes,VS,MTC,Male,Private Prison,Private,Venus,Johnson
+Ferguson,FE,CID,Male,Prison,I,Midway,Madison
+Formby,FB,CID,Male,State Jail,V,Plainview,Hale
+Fort Stockton,N5,CID,Male,Prison,IV,Fort Stockton,Pecos
+Garza West,NH,CID,Male,Transfer Facility,IV,Beeville,Bee
+Gist,BJ,CID,Male,State Jail,III,Beaumont,Jefferson
+Glossbrenner,SO,CID,Male,SAFPF,IV,San Diego,Duvall
+Goodman,GG,CID,Male,Transfer Facility/ISF,I,Jasper,Jasper
+Goree,GR,CID,Male,Prison,I,Huntsville,Walker
+Halbert,BB,CID,Female,SAFPF,VI,Burnet,Burnet
+Hamilton,JH,CID,Male,Pre-Release,VI,Bryan,Brazos
+Havins,TH,CID,Male,Pre-Release,VI,Brownwood,Brown
+Henley,LT,CID,Female,State Jail,III,Dayton,Liberty
+Hightower,HI,CID,Male,Prison,III,Dayton,Liberty
+Hilltop,HT,CID,Female,Prison,VI,Gatesville,Coryell
+Hobby,HB,CID,Female,Prison,VI,Marlin,Falls
+Hodge,HD,CID,Male,DDP,II,Rusk,Cherokee
+Holliday,NF,CID,Male,Transfer Facility,I,Huntsville,Walker
+Hospital Galveston,HG,CID,Co-Gender,Medical,III,Galveston,Galveston
+Hughes,AH,CID,Male,Prison,VI,Gatesville,Coryell
+Huntsville,HV,CID,Male,Prison,I,Huntsville,Walker
+Hutchins,HJ,CID,Male,State Jail,II,Dallas,Dallas
+Jester III,J3,CID,Male,Prison,III,Richmond,Fort Bend
+Jester IV,J4,CID,Male,Psychiatric,III,Richmond,Fort Bend
+Johnston,JT,CID,Male,SAFPF,II,Winnsboro,Wood
+Jordan,JN,CID,Male,Prison,V,Pampa,Gray
+Kegans,HM,CID,Male,State ISF,III,Houston,Harris
+Kyle,KY,MTC,Male,Private Prison,Private,Kyle,Hays
+LeBlanc,BA,CID,Male,Pre-Release,III,Beaumont,Jefferson
+Lewis,GL,CID,Male,Prison,I,Woodville,Tyler
+Lindsey,LN,MTC,Male,Private State Jail,Private,Jacksboro,Jack
+Lockhart,LC,MTC,Female,Private Prison,Private,Lockhart,Caldwell
+Lopez,RL,CID,Male,State Jail,IV,Edinburg,Hidalgo
+Luther,P2,CID,Male,Prison,VI,Navasota,Grimes
+Lychner,AJ,CID,Male,State Jail,III,Humble,Harris
+Lynaugh,LH,CID,Male,Prison,IV,Fort Stockton,Pecos
+Marlin,N1,CID,Female,Transfer Facility,VI,Marlin,Falls
+McConnell,ML,CID,Male,Prison,IV,Beeville,Bee
+Michael,MI,CID,Male,Prison,II,Tennessee Colony,Anderson
+Middleton,NE,CID,Male,Transfer Facility,VI,Abilene,Jones
+Montford/West Texas Hospital,JM,CID,Male,Psychiatric,V,Lubbock,Lubbock
+"Moore, B.",BM,MTC,Male,Private Prison,Private,Overton,Rusk
+"Moore, C.",CM,CID,Male,Transfer Facility,II,Bonham,Fannin
+Mountain View,MV,CID,Female,Prison,VI,Gatesville,Coryell
+Murray,LM,CID,Female,Prison,VI,Gatesville,Coryell
+Ney,HF,CID,Male,Prison,IV,Hondo,Medina
+Pack,P1,CID,Male,Prison,VI,Navasota,Grimes
+Plane/Santa Maria Baby Bonding,LJ,CID,Female,State Jail,III,Dayton,Liberty
+Polunsky,TL,CID,Male,Prison,I,Livingston,Polk
+Powledge,B2,CID,Male,Prison,II,Palestine,Anderson
+Ramsey,R1,CID,Male,Prison,III,Rosharon,Brazoria
+Roach ,RH,CID,Male,Prison,V,Childress,Childress
+Robertson,RB,CID,Male,Prison,VI,Abilene,Jones
+Rudd,RD,CID,Male,State ISF/Transfer Facility,V,Brownfield,Terry
+San Saba,N2,CID,Female,Transfer Facility,VI,San Saba,San Saba
+Sanchez,RZ,CID,Male,State Jail,IV,El Paso,El Paso
+Sayle,SY,CID,Male,SAFPF,VI,Breckenridge,Stephens
+Segovia,EN,CID,Male,Pre-Release,IV,Edinburg,Hidalgo
+Skyview,SV,CID,Co-Gender,Psychiatric,II,Rusk,Cherokee
+Smith,SM,CID,Male,Prison,V,Lamesa,Dawson
+Stevenson,SB,CID,Male,Prison,IV,Cuero,DeWitt
+Stiles,ST,CID,Male,Prison,III,Beaumont,Jefferson
+Stringfellow,R2,CID,Male,Prison,III,Rosharon,Brazoria
+Telford,TO,CID,Male,Prison,II,New Boston,Bowie
+Terrell,R3,CID,Male,Prison,III,Rosharon,Brazoria
+Torres,TE,CID,Male,Prison,IV,Hondo,Medina
+Travis County,TI,CID,Male,State Jail,VI,Austin,Travis
+Tulia,N3,CID,Male,Transfer Facility,V,Tulia,Swisher
+Vance,J2,CID,Male,Prison,III,Richmond,Fort Bend
+Wallace/San Angelo Work Camp,WL,CID,Male,Prison,V,Colorado City,Mitchell
+Wheeler,WR,CID,Male,State Jail,V,Plainview,Hale
+Willacy County,WI,LaSalle,Male,Private State Jail,Private,Raymondville,Willacy
+Woodman,WM,CID,Female,State Jail,VI,Gatesville,Coryell
+Wynne,WY,CID,Male,Prison,I,Huntsville,Walker
+Young,GC,CID,Female,Medical,III,Dickinson,Galveston

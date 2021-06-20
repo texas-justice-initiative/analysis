@@ -1,0 +1,30 @@
+---
+title: An R Markdown document converted from "~/git/tji/summary_stats_cdr_covid.ipynb"
+output: html_document
+---
+
+### High-level Summary Statistics on Custodial Deaths in Texas
+
+The goal of this notebook is to provide an overview of the impact of the COVID-19 pandemic on custodial deaths in Texas. 
+
+```{r setup, include=FALSE}
+library(reticulate)
+library(knitr)
+reticulate::use_python('/Users/hlukas/opt/anaconda3/bin/python3.8')
+knitr::opts_chunk$set(engine.path = list(python = '/Users/hlukas/opt/anaconda3/bin/python3.8'))
+```
+
+
+```{python import_libraries}
+import pandas as pd
+import numpy as np
+import datadotworld as dw
+```
+
+We read in the data from data.world
+
+```{python read_in_data}
+files = dw.load_dataset('tji/deaths-in-custody').dataframes
+shot_officers = files['cleaned_custodial_death_reports']
+```
+
